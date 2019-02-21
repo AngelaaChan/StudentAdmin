@@ -1,4 +1,7 @@
 # StudentAdmin
+A project to Student Administration and score analysis
+
+
 
 ### BackEnd：
 JavaWeb
