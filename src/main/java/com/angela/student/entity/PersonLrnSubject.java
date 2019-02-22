@@ -1,6 +1,11 @@
 package com.angela.student.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class PersonLrnSubject {
+    @Id
     private Integer personId;
     private Integer scoreCalculus;
     private Integer scoreEnglish;
