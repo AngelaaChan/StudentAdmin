@@ -22,7 +22,7 @@ public class PsersonService {
         personA.setAge(90);
         personRepository.save(personA);
 
-        System.out.println(1/0);
+
 
         Person personB = new Person();
         personB.setId(68);

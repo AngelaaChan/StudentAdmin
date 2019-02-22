@@ -42,7 +42,7 @@ public class PersonController {
     }
 
     /**********    QUERY  by age  **********/
-    @GetMapping(value = "/person2/{id}")
+    @GetMapping(value = "/person/{age}")
     public Person personFindByAge(@PathVariable("age") Integer age) {
         return personRepository.findByAge(age);
     }
