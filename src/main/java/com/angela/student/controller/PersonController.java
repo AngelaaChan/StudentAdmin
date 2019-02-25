@@ -19,7 +19,6 @@ public class PersonController {
 
     @GetMapping(value = "/person")
     private List<Person> personList() {
-
         return personRepository.findAll();
     }
 
