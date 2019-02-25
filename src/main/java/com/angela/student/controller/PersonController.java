@@ -24,9 +24,6 @@ public class PersonController {
     }
 
 
-/***********__________CRUD__________************/
-
-    /**********    create    **********/
     @PostMapping(value = "/person")
     public Person personAdd(@RequestParam("name") String name, @RequestParam("age") Integer age) {
         Person person = new Person();
@@ -49,7 +46,7 @@ public class PersonController {
 
 
     /***********__________UPDATE__________************/
-    @PutMapping(value = "/person/{id}")
+    @PutMapping(value = "/person2/{id}")
     public Person personUpdate(@PathVariable("id") Integer id,
                                @RequestParam("name") String name,
                                @RequestParam("age") Integer age) {
